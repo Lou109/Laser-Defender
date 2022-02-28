@@ -433,7 +433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7557799600696923521, guid: 2439342e38ab44242b5f2d25030a40b7, type: 3}
       propertyPath: m_Name
-      value: enemy 0
+      value: Enemy 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2439342e38ab44242b5f2d25030a40b7, type: 3}
