@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49256
+50195
 Successfully changed project path to: /Users/louisecollins/Repos/Unity2D/Project-Setup-Tutorial/Laser Defender
 /Users/louisecollins/Repos/Unity2D/Project-Setup-Tutorial/Laser Defender
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/louisecollins/Repos/Unity2D/Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 92.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.13f1 (90b6766da538)
 [Subsystems] Discovering subsystems at path /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,78 +69,78 @@ Initialize mono
 Mono path[0] = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56929
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56589
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.040317 seconds.
+Registered in 0.036677 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 88.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 88.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.322 seconds
+- Completed reload, in  1.292 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1323ms)
-		BeginReloadAssembly (591ms)
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (579ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (558ms)
-			LoadAssemblies (605ms)
+		EndReloadAssembly (543ms)
+			LoadAssemblies (582ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (321ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001609 seconds.
+Registered in 0.001592 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/louisecollins/Repos/Unity2D/Project-Setup-Tutorial/Laser Defender/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/louisecollins/Repos/Unity2D/Project-Setup-Tutorial/Laser Defender/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 85.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 90.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.516 seconds
+- Completed reload, in  2.601 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2535ms)
-		BeginReloadAssembly (591ms)
+	ReloadAssembly (2619ms)
+		BeginReloadAssembly (655ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1814ms)
-			LoadAssemblies (1207ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1832ms)
+			LoadAssemblies (1267ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (638ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (648ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,12 +150,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Users/louisecollins/Repos/Unity2D/Unity Install Folder/2021.2.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3601 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (95.6 KB). Loaded Objects now: 4061.
-Memory consumption went from 241.4 MB to 241.3 MB.
-Total: 3.224189 ms (FindLiveObjects: 0.262837 ms CreateObjectMapping: 0.172201 ms MarkObjects: 2.665007 ms  DeleteObjects: 0.123340 ms)
+Memory consumption went from 241.5 MB to 241.4 MB.
+Total: 3.265056 ms (FindLiveObjects: 0.270704 ms CreateObjectMapping: 0.191440 ms MarkObjects: 2.700445 ms  DeleteObjects: 0.101600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,7 +169,199 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 780.290500 seconds.
-  path: Assets/Asset Packs/starfield.png
-  artifactKey: Guid(02343505f309cce4e9235250a1f45dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/starfield.png using Guid(02343505f309cce4e9235250a1f45dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5b6742365c65c4f40b1c8903f7217f') in 1.589810 seconds 
+  Time since last request: 10953.578439 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1368d45b2a320d8d435ddd0980ab5f06') in 1.456619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Prefabs/enemy 0.prefab
+  artifactKey: Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemy 0.prefab using Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb25f7bbfbc11052ef67418b8efc102') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.384948 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969e9d3a945d79880117ee1b77ee2558') in 0.004564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.897770 seconds.
+  path: Assets/Prefabs/enemy 0.prefab
+  artifactKey: Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemy 0.prefab using Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4767551ed256e7d37ce9d9d0d758fc03') in 0.003957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.011136 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire00.png
+  artifactKey: Guid(6b0276df6c8d94b3fbf93aea56a1d257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire00.png using Guid(6b0276df6c8d94b3fbf93aea56a1d257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f605fa4f62db5b18710f46c8ba113776') in 0.522822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire19.png
+  artifactKey: Guid(385ab4fbe0d104d7689666c2421d1667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire19.png using Guid(385ab4fbe0d104d7689666c2421d1667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda6b4d64a8b492c51217d1659a79b87') in 0.011890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire04.png
+  artifactKey: Guid(701326f3c77eb43609efc40334ef16bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire04.png using Guid(701326f3c77eb43609efc40334ef16bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499de27ae645de1875c2ca11bef8766a') in 0.011999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/shield3.png
+  artifactKey: Guid(e030a1718d8fa455ebed5c459c5f914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/shield3.png using Guid(e030a1718d8fa455ebed5c459c5f914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0159de59e8f3e872ca4c1d7d6860430b') in 0.007966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire01.png
+  artifactKey: Guid(658dc3b71a23c441081608a4607bf418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire01.png using Guid(658dc3b71a23c441081608a4607bf418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdddd5d8e749fba751205f7d1f7c2a9') in 0.009394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire07.png
+  artifactKey: Guid(66f7059805aef4714b7540881c7b0d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire07.png using Guid(66f7059805aef4714b7540881c7b0d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b33c024e4e50f429ed1af2b3a35452') in 0.007471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire14.png
+  artifactKey: Guid(ded75c90eba794fec93c9f1bedac32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire14.png using Guid(ded75c90eba794fec93c9f1bedac32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea81c2e434c935f9f1a3a6dc42bb3c2') in 0.008287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire13.png
+  artifactKey: Guid(ee50ffb0f747042e49f00e04d050e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire13.png using Guid(ee50ffb0f747042e49f00e04d050e39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec25abb69047782074dd50d182c50276') in 0.006881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire11.png
+  artifactKey: Guid(3fd04d7b5f0194086a5c4e54994f85be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire11.png using Guid(3fd04d7b5f0194086a5c4e54994f85be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4928f6ae5f483433a9058f4a4e852') in 0.006498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire12.png
+  artifactKey: Guid(ff6b821414a1f4c6c98613f987e44f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire12.png using Guid(ff6b821414a1f4c6c98613f987e44f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03819915cd95193a6f222b6e8ebbc297') in 0.006970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/speed.png
+  artifactKey: Guid(216781ded65984113a58276979c32dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/speed.png using Guid(216781ded65984113a58276979c32dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f3bebb9da049879eb0046fccb03f73') in 0.010021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/star2.png
+  artifactKey: Guid(f4aff9d2aa4984647b8391ba3c8f406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/star2.png using Guid(f4aff9d2aa4984647b8391ba3c8f406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecfbeb0899193c95efcc921213c91c5') in 0.007054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire16.png
+  artifactKey: Guid(74e4ee805d6b449e9a68b7fd0dc70756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire16.png using Guid(74e4ee805d6b449e9a68b7fd0dc70756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7845b564b3f0f489f355338af3e6316d') in 0.006994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/star1.png
+  artifactKey: Guid(3a01bdceb8b1e4c1db14b59ad51aec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/star1.png using Guid(3a01bdceb8b1e4c1db14b59ad51aec8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9e9cbe500045410d06158990e625fe') in 0.007482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire06.png
+  artifactKey: Guid(9a0a335ade7a040afad0f117197be86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire06.png using Guid(9a0a335ade7a040afad0f117197be86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7466e504ae96fcb3425551cf0e57b2eb') in 0.008017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/shield1.png
+  artifactKey: Guid(40f3e12fa38a9422eb44ee39d3beba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/shield1.png using Guid(40f3e12fa38a9422eb44ee39d3beba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251b663631fc72cfdb7b92c505ea7d31') in 0.008440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire03.png
+  artifactKey: Guid(630c346502c514959be632f30205ea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire03.png using Guid(630c346502c514959be632f30205ea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb60a86204c176547daa9e672437712b') in 0.011942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire05.png
+  artifactKey: Guid(63ed7a82938764c2ea616ae5b689fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire05.png using Guid(63ed7a82938764c2ea616ae5b689fda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fa1c6fdd6db38e71c80e53505bb672') in 0.007451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire15.png
+  artifactKey: Guid(7ad9fe444c8f94c66b21389fa3c20aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire15.png using Guid(7ad9fe444c8f94c66b21389fa3c20aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba59996867fafe9b7532e8797dc0dfcc') in 0.007051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire09.png
+  artifactKey: Guid(c16b5258bb59349d58f1bf4c034d999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire09.png using Guid(c16b5258bb59349d58f1bf4c034d999c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9478c3ef9f5b06b111b42cbe98663f03') in 0.007156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire10.png
+  artifactKey: Guid(a44f9d5beb1364032a5804658411437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire10.png using Guid(a44f9d5beb1364032a5804658411437a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ec81e6be4d17e71d446a12b5aa906') in 0.012565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire18.png
+  artifactKey: Guid(d595dfda0859a4b0ebcfd17d9cd18c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire18.png using Guid(d595dfda0859a4b0ebcfd17d9cd18c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966027e2ed73a190effaae2e1237675f') in 0.009230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire02.png
+  artifactKey: Guid(94b06ef46c2ab44ada0605b8c19eb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire02.png using Guid(94b06ef46c2ab44ada0605b8c19eb586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4029244e64ec6df6d9e09822f172a3') in 0.008387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/shield2.png
+  artifactKey: Guid(a6c2c49685bde4702bb6b35ed67cb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/shield2.png using Guid(a6c2c49685bde4702bb6b35ed67cb520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc926db7db7ea38dbc7aa962174c7c4') in 0.008917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/star3.png
+  artifactKey: Guid(6c9e6323cca304b088557c19df20116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/star3.png using Guid(6c9e6323cca304b088557c19df20116a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a855821db797517915f293df58b191') in 0.009495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire08.png
+  artifactKey: Guid(f772fd9f67a9545a4b9a4dd33a7a53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire08.png using Guid(f772fd9f67a9545a4b9a4dd33a7a53d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6566f97792d7add1b6c34070938407') in 0.007728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Asset Packs/spaceshooter/PNG/Effects/fire17.png
+  artifactKey: Guid(a49309a39112746de889db48fc9d1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/spaceshooter/PNG/Effects/fire17.png using Guid(a49309a39112746de889db48fc9d1933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b57d684b867ac5a7d83279643e427a1') in 0.008726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.269786 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(355c607674185405993f5c32e3ff78c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2cf2dd6f74307ddef333ffa0f6dfbf') in 0.011969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.941624 seconds.
+  path: Assets/Prefabs/enemy 0.prefab
+  artifactKey: Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/enemy 0.prefab using Guid(2439342e38ab44242b5f2d25030a40b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8851476e2ea202c46345d1872a5930e') in 0.009165 seconds 
