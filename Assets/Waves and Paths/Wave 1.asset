@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6a772d4df1891442f9e361cf9689eb45, type: 3}
-  m_Name: Wave 0
+  m_Name: Wave 1
   m_EditorClassIdentifier: 
-  pathPrefab: {fileID: 4487847546015628788, guid: 1a30d2336c7d2462fae90ab7d8191278, type: 3}
+  pathPrefab: {fileID: 5671452637863096279, guid: 436a4826116f34d25b2f9ea604448207, type: 3}
   moveSpeed: 5
