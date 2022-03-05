@@ -316,7 +316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -352,7 +352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8636a0633099648b3b1621296516d9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentWave: {fileID: 11400000, guid: 990ad361a6aef44aa9d03acc37c6dcbc, type: 2}
+  waveConfigs:
+  - {fileID: 11400000, guid: 990ad361a6aef44aa9d03acc37c6dcbc, type: 2}
+  - {fileID: 11400000, guid: c6c3636c1aad147e6a38bae5073b2a45, type: 2}
+  timeBetweenWaves: 2
 --- !u!4 &2117875656
 Transform:
   m_ObjectHideFlags: 0
