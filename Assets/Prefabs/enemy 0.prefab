@@ -94,6 +94,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5630562530939365115}
   - component: {fileID: 1829685379}
+  - component: {fileID: -1165463493436514831}
+  - component: {fileID: -6394050682524752742}
+  - component: {fileID: 8986349540665971463}
+  - component: {fileID: -3322907341077355204}
   m_Layer: 0
   m_Name: enemy 0
   m_TagString: Untagged
@@ -129,4 +133,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a10771118d345e0a88e7aa2f76fac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfig: {fileID: 11400000, guid: c6c3636c1aad147e6a38bae5073b2a45, type: 2}
+--- !u!50 &-1165463493436514831
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557799600696923521}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &-6394050682524752742
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557799600696923521}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.01986599}
+  serializedVersion: 2
+  m_Radius: 0.37087077
+--- !u!114 &8986349540665971463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557799600696923521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649e474a7c383477eb0e8371ca7097f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+--- !u!114 &-3322907341077355204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7557799600696923521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117395ca4f4ab48f5822909dcdec8419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 25
