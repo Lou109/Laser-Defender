@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b1eb4af0deab4eb89bd92f23f15187b
+guid: 985426acb03f24ebaa9acbd8b56b777b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Retro Stereo Wide
+  - Kenney Future
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

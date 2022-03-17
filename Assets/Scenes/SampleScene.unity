@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 631572940}
   - component: {fileID: 631572939}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,15 +518,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0123456789
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e41efbca9dff2458496c3da0b42a4904, type: 2}
-  m_sharedMaterial: {fileID: -8638742379877284047, guid: e41efbca9dff2458496c3da0b42a4904, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ac5b9fd9958d945e9934750ff0df9256, type: 2}
+  m_sharedMaterial: {fileID: -6045586869327088543, guid: ac5b9fd9958d945e9934750ff0df9256, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281874488
-  m_fontColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+    rgba: 872398592
+  m_fontColor: {r: 0, g: 0.7490196, b: 1, a: 0.2}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.7
+  m_fontSize: 65.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -553,7 +553,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 12
+  m_characterSpacing: -5.38
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1258,6 +1258,7 @@ GameObject:
   - component: {fileID: 1886633258}
   - component: {fileID: 1886633257}
   - component: {fileID: 1886633256}
+  - component: {fileID: 1886633260}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1347,6 +1348,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1886633260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886633255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbdfdc05d584a495fb656a4112c9e94a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 149646118}
+  playerHealth: {fileID: 3450225730598307859}
+  scoreText: {fileID: 631572939}
 --- !u!1 &1944315760
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,3 +1649,14 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &3450225730598307859 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3265689424588542256, guid: 355c607674185405993f5c32e3ff78c3, type: 3}
+  m_PrefabInstance: {fileID: 3450225730598307854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3450225730598307855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649e474a7c383477eb0e8371ca7097f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4483cad9267a64a34b4d7a02428f5072
+guid: b2996dbd819164d71832feb8263301cb
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Retro Mono Wide
+  - Kenney Future Narrow
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
