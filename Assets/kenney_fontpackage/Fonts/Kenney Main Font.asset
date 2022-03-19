@@ -56,7 +56,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Kenney Future SDF Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: UNDERLAY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -133,7 +133,7 @@ Material:
     - _TextureWidth: 512
     - _UnderlayDilate: 0
     - _UnderlayOffsetX: 0
-    - _UnderlayOffsetY: 0
+    - _UnderlayOffsetY: -1
     - _UnderlaySoftness: 0
     - _VertexOffsetX: 0
     - _VertexOffsetY: 0
@@ -149,7 +149,7 @@ Material:
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
-    - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _UnderlayColor: {r: 0.09009399, g: 0.8558929, b: 1.1486983, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &11400000
 MonoBehaviour:
@@ -161,11 +161,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Kenney Future SDF
+  m_Name: Kenney Main Font
   m_EditorClassIdentifier: 
-  hashCode: 569907654
+  hashCode: -2140821673
   material: {fileID: -6021398411166880746}
-  materialHashCode: 694993958
+  materialHashCode: 1297477399
   m_Version: 1.1.0
   m_SourceFontFileGUID: 985426acb03f24ebaa9acbd8b56b777b
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 985426acb03f24ebaa9acbd8b56b777b, type: 3}
