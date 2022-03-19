@@ -98,7 +98,7 @@ Material:
     - _FaceColor: {r: 0, g: 1.6627451, b: 2.9960785, a: 0.19607843}
     - _GlowColor: {r: 0, g: 0.63529414, b: 0.7490196, a: 0.88235295}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
-    - _OutlineColor: {r: 0, g: 1.1129392, b: 1.3041189, a: 1}
+    - _OutlineColor: {r: 0, g: 0.90953344, b: 1.0592737, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectOutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
@@ -116,9 +116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: kenney MainFont 2
   m_EditorClassIdentifier: 
-  hashCode: 1550312530
+  hashCode: -1604366024
   material: {fileID: -6045586869327088543}
-  materialHashCode: -1155467214
+  materialHashCode: 1874181144
   m_Version: 1.1.0
   m_SourceFontFileGUID: 53908edf6e0fb4770b66229cd373e599
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 53908edf6e0fb4770b66229cd373e599, type: 3}
